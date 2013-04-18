@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="../jquery-verticalcentering-plugin.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#test1 > p')
+				.verticalCentering('#test1 > img');
+			$(window).resize(function(){
+				$('#test2 > p')
+					.verticalCentering();
+			}).resize();
+			$('#test3 > p')
+				.verticalCentering({
+					shift:-30
+				});
+		});
+	</script>
+	<style>
+		html,body{
+			height:100%;
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			background: #CCC;
+			margin: 0 auto 10px auto;
+		}
+		p{
+			background: #CCF;
+			margin: 0;
+			padding: 10px;
+		}
+		#test1{
+			width: 50%;
+			height: 250px;
+			padding: 1% 2%;
+		}
+		#test1 img,
+		#test1 p{
+			float: left;
+		}
+		#test1 p {
+			margin-left: 20px;
+			width:50%;
+		}
+		#test2{
+			width: 50%;
+			height: 50%;
+		}
+		#test3{
+			overflow: hidden;
+			width: 80%;
+			height: 400px;
+		}
+		#test3 p{
+			width: 30%;
+			float: left;
+			padding: 1%;
+		}
+	</style>
+</head>
+<body>
+	<div id="test1">
+			<img src="http://lorempixel.com/output/sports-q-c-200-200-10.jpg" height="200" width="200" alt="">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+				Ut eu purus id velit porttitor molestie non non velit. Vivamus dictum venenatis condimentum. In ornare tempor augue eu hendrerit. 
+			</p>
+	</div>
+	<div id="test2">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu purus id velit porttitor molestie non non velit. Vivamus dictum venenatis condimentum. In ornare tempor augue eu hendrerit. Maecenas ac ligula a ante eleifend pulvinar vel eu quam. Etiam malesuada ante laoreet dolor ullamcorper commodo. Proin adipiscing imperdiet commodo. Integer accumsan, mauris et iaculis mattis, urna orci blandit lectus, sit amet semper mi eros eget diam. Nam turpis nunc, vulputate vitae semper eu, sollicitudin eu augue. In vitae eros at nisi consectetur sodales.
+		</p>
+	</div>
+	<div id="test3">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan sodales velit, vel lacinia justo sollicitudin quis. Aliquam eget elit eget ligula tincidunt viverra. Donec ullamcorper consectetur mauris, non tincidunt leo tristique vitae. In massa felis, porta id sodales ac, pretium vel ante. Ut lacinia ultricies elit vel ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium sem nec mi fringilla ut tempus velit varius.<br>
+			<br>
+			Maecenas tincidunt, nunc ac volutpat porttitor, dui odio fermentum mauris, ac venenatis metus nibh eget mauris. Nulla tristique dignissim velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+		</p>
+		<p>
+			Vestibulum fermentum luctus nulla nec pulvinar. Donec lectus massa, aliquam vel sodales in, elementum eget urna. Sed id arcu elit, ut volutpat leo. Vivamus dolor est, consequat a euismod ut, fermentum in velit. Nullam eu lectus turpis, ac interdum magna. Maecenas ut condimentum orci. Donec congue eros non dolor iaculis facilisis. Phasellus lectus odio, dapibus vitae egestas vulputate, varius non enim. Vestibulum interdum risus id est aliquam sit amet consequat purus vehicula. Sed ornare aliquam imperdiet.
+		</p>
+		<p>
+			Curabitur vel iaculis dolor. Etiam in dapibus velit. Sed ac felis justo, eget tempus tellus. Duis nec nisl lacus, ac pharetra mauris. Vivamus elit neque, hendrerit vitae auctor sed, rhoncus ut est. Nam congue, quam elementum dapibus tempus, nibh dui viverra leo, in gravida sapien turpis id purus. Morbi vulputate augue sed massa interdum consequat. Maecenas aliquet vestibulum mauris pretium auctor. Mauris neque dui, condimentum vel sagittis varius, malesuada nec leo. Integer eu diam elit. Vestibulum ultrices arcu a odio hendrerit egestas in eget purus. Sed posuere, nisi sed sodales vulputate, eros diam adipiscing dui, nec ullamcorper nisi tortor vel diam. Mauris at diam a nisi condimentum tempus ac sed leo. Cras semper sagittis nisi ut ullamcorper. Mauris dapibus congue lorem, ac molestie massa euismod vitae.
+		</p>
+	</div>
+</body>
+</html>
