@@ -3,22 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="../jquery-verticalcentering-plugin.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('#test1 > p')
-				.verticalCentering('#test1 > img');
-			$(window).resize(function(){
-				$('#test2 > p')
-					.verticalCentering();
-			}).resize();
-			$('#test3 > p')
-				.verticalCentering({
-					shift:0
-				});
-		});
-	</script>
 	<style>
 		html,body{
 			height:100%;
@@ -65,6 +49,21 @@
 			padding: 1%;
 		}
 	</style>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+	<script type="text/javascript" src="../jquery-verticalcentering-plugin.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#test1 > p')
+				.verticalCentering('#test1 > img');
+			$(window).resize(function(){
+				$('#test2 > p')
+					.verticalCentering(20);
+			}).resize();
+			$('#test3 > p')
+				.verticalCentering();
+		});
+	</script>
+	
 </head>
 <body>
 	<div id="test1">
