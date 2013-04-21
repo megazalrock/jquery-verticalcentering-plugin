@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="../jquery-verticalcentering-plugin.js"></script>
 	<script type="text/javascript">
 		$(function(){
@@ -15,7 +15,7 @@
 			}).resize();
 			$('#test3 > p')
 				.verticalCentering({
-					shift:-30
+					shift:0
 				});
 		});
 	</script>
@@ -26,7 +26,7 @@
 			padding: 0;
 		}
 		div{
-			background: #CCC;
+			background: #EEE;
 			margin: 0 auto 10px auto;
 		}
 		p{
@@ -36,8 +36,9 @@
 		}
 		#test1{
 			width: 50%;
-			height: 250px;
 			padding: 1% 2%;
+			background: transparent;
+			overflow: hidden;
 		}
 		#test1 img,
 		#test1 p{
@@ -45,11 +46,13 @@
 		}
 		#test1 p {
 			margin-left: 20px;
-			width:50%;
+			width:200px;
 		}
 		#test2{
+			clear: both;
+			overflow: hidden;
 			width: 50%;
-			height: 50%;
+			height: 400px;
 		}
 		#test3{
 			overflow: hidden;
