@@ -1,0 +1,23 @@
+{
+	"name": "verticalcentering",
+	"title": "jQuery Vertical Centering Plugin", 
+	"author": {
+		"name": "Otto Kamiya (MegazalRock)",
+		"url": "http://mgzl.jp"
+	},
+	"licenses": [{
+		"type":"MIT",
+		"url": "http://opensource.org/licenses/MIT"
+	}],
+	"description": "最小機能しか提供しないJavaScriptが分かる人向けのギャラリープラグイン",
+	"dependencies": {
+		"jquery": "1.9.1 - 2.0"
+	},
+	"keywords": ["effect","vertical centering"],
+	"version": "1.0.0",
+	"files": ["jquery-verticalcentering-plugin.js","jquery-verticalcentering-plugin.min.js"],
+	"download":"https://github.com/megazalrock/jquery-verticalcentering-plugin/archive/master.zip",
+	"homepage": "https://github.com/megazalrock/jquery-verticalcentering-plugin",
+	"docs": "https://github.com/megazalrock/jquery-verticalcentering-plugin/blob/master/README.md",
+	"bugs":"https://github.com/megazalrock/jquery-verticalcentering-plugin/issues"
+}
