@@ -1,0 +1,33 @@
+{
+  "title": "jQuery Vertical Centering Plugin",
+  "name": "jquery-verticalcentering-plugin",
+  "version": "1.0.4",
+  "description": "Vertical centering plugin",
+  "main": "build/jquery-verticalcentering-plugin.js",
+  "dependencies": {
+    "jquery": "1.9.1-2.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-less": "~0.5.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-jquery-json": "~0.2.1",
+    "grunt-lib-legacyhelpers": "~0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/megazalrock/jquery-verticalcentering-plugin.git"
+  },
+  "keywords": [
+    "layout"
+  ],
+  "author": "Otto Kamiya (MegazalRock)",
+  "license": "MIT",
+  "gitHead": "59209d9b6c106add09c51fe3a9d18fd928a9e7a0",
+  "readmeFilename": "README.md"
+}

@@ -1,5 +1,5 @@
 # jQuery Vertical Centering Plugin
-Version 1.0
+Version 1.1
 
 Otto Kamiya (MegazalRock)  
 mail : otto@mgzl.jp  
@@ -7,6 +7,7 @@ twitter : @megazal_rock
 facebook : facebook.com/megazalrock
 
 ## Change Log.
+* 1.0.4 mini fix
 * 1.0.0	Initial release
 
 ## Description

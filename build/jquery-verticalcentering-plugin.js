@@ -1,9 +1,8 @@
-/*global $:true, jQuery:true */
-/*! jQuery Vertical Centering Plugin 2013-4-21
-* Vertion: 1.0
-* Depends: jQuery 1.8.0 - 1.9.1
-* Author: Otto Kamiya (MegazalRock) http://mgzl.jp/
-* License: MIT License*/
+/*! jQuery Vertical Centering Plugin 2013-05-13
+ *  Vertion : 1.0.4
+ *  Dependencies : jQuery 1.9.1-2.0
+ *  Author : Otto Kamiya (MegazalRock)
+ *  License : MIT*/
 (function(){
 	var fn = {
 		verticalCentering:function(target,shift){
