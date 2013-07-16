@@ -1,5 +1,5 @@
 /*! jQuery Vertical Centering Plugin 2013-07-16
- *  Vertion : 1.0.5
+ *  Vertion : 1.0.6
  *  Dependencies : jQuery 1.9.1-2.0
  *  Author : Otto Kamiya (MegazalRock)
  *  License : MIT*/

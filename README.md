@@ -1,5 +1,5 @@
 # jQuery Vertical Centering Plugin
-Version 1.0.5
+Version 1.0.6
 
 Otto Kamiya (MegazalRock)  
 mail : otto@mgzl.jp  
@@ -10,7 +10,7 @@ facebook : facebook.com/megazalrock
 [The MIT License (MIT)](https://github.com/megazalrock/jquery-verticalcentering-plugin/blob/master/LICENSE.txt)
 
 ## Change Log 更新履歴
-* 1.0.5 use "use strict", add Japanese explanation.
+* 1.0.6 use "use strict", add Japanese explanation.
 * 1.0.4 mini fix
 * 1.0.0	Initial release
 
