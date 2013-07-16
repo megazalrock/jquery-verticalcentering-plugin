@@ -1,5 +1,6 @@
 /*global $:true, jQuery:true */
-(function(){
+(function($){
+	"use strict";
 	var fn = {
 		verticalCentering:function(target,shift){
 			shift = shift || 0;

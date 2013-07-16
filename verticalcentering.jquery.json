@@ -7,17 +7,17 @@
 	},
 	"licenses": [{
 		"type":"MIT",
-		"url": "http://opensource.org/licenses/MIT"
+		"url": "https://github.com/megazalrock/jquery-verticalcentering-plugin/blob/master/LICENSE.txt"
 	}],
 	"description": "Easy Centering Plugin",
 	"dependencies": {
 		"jquery": "1.9.1 - 2.0"
 	},
 	"keywords": ["effect"],
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"files": ["jquery-verticalcentering-plugin.js","jquery-verticalcentering-plugin.min.js"],
 	"download":"https://github.com/megazalrock/jquery-verticalcentering-plugin/archive/master.zip",
 	"homepage": "https://github.com/megazalrock/jquery-verticalcentering-plugin",
 	"docs": "https://github.com/megazalrock/jquery-verticalcentering-plugin/blob/master/README.md",
-	"bugs":"https://github.com/megazalrock/jquery-verticalcentering-plugin/issues"
+	"bugs":"https://github.com/megazalrock/jquery-verticalcentering-plugin/issues",
 }

@@ -1,37 +1,45 @@
 # jQuery Vertical Centering Plugin
-Version 1.1
+Version 1.0.5
 
 Otto Kamiya (MegazalRock)  
 mail : otto@mgzl.jp  
 twitter : @megazal_rock  
 facebook : facebook.com/megazalrock
 
-## Change Log.
+## License ライセンス
+[The MIT License (MIT)](https://github.com/megazalrock/jquery-verticalcentering-plugin/blob/master/LICENSE.txt)
+
+## Change Log 更新履歴
+* 1.0.5 use "use strict", add Japanese explanation.
 * 1.0.4 mini fix
 * 1.0.0	Initial release
 
-## Description
-
+## Description 概要
 Easy vertical centering Plugin
+
 [Demo](http://mgzl.jp/jvc-demo/)
 
-## Dependencies
+上下中央揃えを簡単に行なうjQueryプラグインです。
+
+[デモ](http://mgzl.jp/jvc-demo/)
+
+## Dependencies 依存ライブラリ
 [jQuery 1.9.x and 2.0](http://jquery.com/)
 
-## Browser Environment
+## Browser Environment 対応ブラウザ
 Internet Explorer 7-10(Win)  
 Chrome23+(Win/Mac)  
 Firefox16+(Win/Mac)  
 Opera12+(Win/Mac)  
 Safari6+(Mac)
 
-## Files
+## Files ファイル
 *	jquery-verticalcentering-plugin.js
 *	jquery-verticalcentering-plugin.min.js
 
-## Usage
+## Usage 使い方
 
-### Centering to a parent element
+### Centering to a parent element 親要素に対して上下中央揃え	
 
 #### HTML
 
@@ -48,9 +56,10 @@ Safari6+(Mac)
 			.verticalCentering();
 	});
 
-### Centering to a selected element
+### Centering to a selected element 任意の要素に対して上下中央揃え
 
-Pass selectors a as argument.
+Pass selectors as a argument.
+セレクターを引数として渡して下さい。
 
 #### HTML
 
@@ -64,9 +73,11 @@ Pass selectors a as argument.
 			.verticalCentering('.image');
 	});
 
-### Centering and shift
+### Centering and shift 上下中央揃えしてオフセット
 
 Pass a value as a (second) argument.
+
+（第二）引数に移動させるピクセル数を渡して下さい。
 
 #### HTML
 

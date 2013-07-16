@@ -1,9 +1,10 @@
-/*! jQuery Vertical Centering Plugin 2013-05-13
- *  Vertion : 1.0.4
+/*! jQuery Vertical Centering Plugin 2013-07-16
+ *  Vertion : 1.0.5
  *  Dependencies : jQuery 1.9.1-2.0
  *  Author : Otto Kamiya (MegazalRock)
  *  License : MIT*/
-(function(){
+(function($){
+	"use strict";
 	var fn = {
 		verticalCentering:function(target,shift){
 			shift = shift || 0;
