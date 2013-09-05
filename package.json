@@ -4,9 +4,6 @@
   "version": "1.0.6",
   "description": "Vertical centering plugin",
   "main": "build/jquery-verticalcentering-plugin.js",
-  "dependencies": {
-    "jquery": "1.9.1-2.0"
-  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.4.3",
