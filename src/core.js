@@ -20,6 +20,7 @@
 						});
 				}
 			});
+			return this;
 		}
 	};
 	$.fn.extend(fn);

@@ -26,7 +26,7 @@ module.exports = function(grunt){
 		},
 		concat:{
 			options:{
-				stripBanners:true,
+				stripBanners: true,
 				banner:'/*! <%= pkg.title %> <%= grunt.template.today("yyyy-mm-dd") %>\n *  Vertion : <%= pkg.version %>\n *  Dependencies : jQuery <%= pkg.dependencies.jquery %>\n *  Author : <%= pkg.author %>\n *  License : <%= pkg.license %>*/\n'
 			},
 			dist:{
