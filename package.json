@@ -1,7 +1,7 @@
 {
   "title": "jQuery Vertical Centering Plugin",
   "name": "jquery-verticalcentering-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vertical centering plugin",
   "main": "build/jquery-verticalcentering-plugin.js",
   "dependencies": {
